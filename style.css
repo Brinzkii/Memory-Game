@@ -1,0 +1,113 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgrey;
+}
+
+#game {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  gap: 10%;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 175px;
+  height: 250px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+div.title {
+  text-align: center;
+  font: 3rem "Montserrat";
+}
+
+div.menu {
+display: flex;
+height: 68px;
+justify-content: space-evenly;
+margin: 20px 0px 10px 0px;
+}
+
+button {
+  width: 150px;
+}
+
+.score {
+  position: relative;
+  top: -10px;
+  font-family:'Oxanium', cursive;
+  font-size: 4rem;
+}
+
+.pb {
+  font-family:'Oxanium', cursive;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+div.red.flipped {
+  background-color: red;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.blue.flipped {
+  background-color: blue;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.green.flipped {
+  background-color: green;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.orange.flipped {
+  background-color: orange;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.purple.flipped {
+  background-color: purple;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.red.matched {
+  background-color: red;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.blue.matched {
+  background-color: blue;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.green.matched {
+  background-color: green;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.orange.matched {
+  background-color: orange;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+
+div.purple.matched {
+  background-color: purple;
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
